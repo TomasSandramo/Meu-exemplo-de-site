@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+  <header> 
+     <h1>MEU PRIMEIRO FORMULARIO</h1>
+  </header>
+  <nav>
+    <a href="#">HOME </a>
+    <a href="#">CURIOSIDADES</a>
+    <a href="#">FALE CONNOSCO</a>
+    <a href="#">CONTACTO</a>
+  </nav>
+    <br>
+    <br>
+      <fieldset>
+        <legend>CONTACTO</legend>
+        <form action="" method="get">
+              <label for="inome">Nome:</label>
+               <input type="text" name="nome" id="inome" placeholder="Nome completo">
+               <br>
+               <br>
+            <label for="data">Data de nascimento</label>
+            <input type="date" name="data" id="idata">
+            <br>
+            <br>
+            <label for="Selecione a naturalidade">Selecione a sua cidade</label>
+              <select name="Provincia" id="local de nascimento" >
+                <option value="Maputo">Maputo</option>
+                <option value="Gaza">Gaza</option>
+                <option value="Inhambane">Inhambane</option>
+                <option value="Sofala">Beira</option>
+                <option value="Chimoio">Manica</option>
+                <option value="Tete">Tete</option>
+                <option value="Zambezia">Queliamane</option>
+                <option value="Niassa">Lichinga</option>
+                <option value="Nampula">Nacala</option>
+              </select>
+            <br>
+            <br>
+            <label for="sexo">sexo</label>
+             <p>Masculino <input type="radio" name="" id="">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="iemail" placeholder="insira email">
+            <br>
+            <br>
+            <label for="ficheiro">Documento em pdf </label>
+            <input type="file" name="ficheiro" id="ificheiro">
+            <br>
+            <br>
+             <label for="telefone">Telefone</label>
+             <input type="tel" name="telefone" id="itelefone" placeholder="+258" >
+             <br>
+             <br>
+             <input type="submit" value="Enviar dados">
+             <input type="submit" value="limpar dados">
+             
+          </form>
+    
+      </fieldset>
+      <br>
+      <label for="">MENSAGEM</label>
+      <br>
+      <textarea name="" id="" cols="30" rows="10">MENSAGEM</textarea>
+     <input type="submit" value="Enviar">
+    
+</body>
+</html>
